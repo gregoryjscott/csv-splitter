@@ -1,0 +1,11 @@
+{
+    "name" : "mopup_stream",
+    "main" : "data.js",
+    "dependencies" : {
+        "event-stream": "*",
+        "readable-stream": "*",
+        "csv-streamify": "*",
+        "JSONStream": "*",
+        "through" : "*"
+    }
+}
