@@ -5,7 +5,9 @@
         "event-stream": "*",
         "readable-stream": "*",
         "csv-streamify": "*",
+        "commander": "*",
         "JSONStream": "*",
+        "request": "*",
         "through" : "*"
     }
 }
