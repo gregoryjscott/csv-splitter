@@ -1,7 +1,24 @@
-# Streamlining Data process of the Mopup
-This is a repository for all the code that has to do with thr data process streaming we have discussed on Friday April 11th. 
+# Commandline tool to split csv
+This small tool spawn off from our need during the Nigeria MDGs Info System data mopup process, we needed to process millions of lines of csv file with a constraint of memory, and a good way to go was to split the csv based on one column and have each be processed separately in R. 
 
-Currently our approaches is
-* script download from formhub into csvs
-* break the csvs down to LGA level
-* reuse the original R pipeline for each smaller subset for smaller memory footprint
+We used streams to pick up one line at a time and dump the result to the output directory.
+
+```
+  Usage: csv-splitter [options] [command]
+
+  Commands:
+
+    split 
+       split an input csv into smaller csvs based on one column
+    
+
+  Options:
+
+    -h, --help                 output usage information
+    -V, --version              output the version number
+    -i, --input <file>         select an input csv
+    -f, --formhub <dataset>    select a formhub dataset as input
+    -o, --output <directiory>  select an output directory
+    -b, --groupby <group>      the column you want to group by
+
+```
