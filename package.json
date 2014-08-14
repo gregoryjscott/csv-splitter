@@ -14,9 +14,15 @@
     "dependencies" : {
         "csv-streamify": "*",
         "commander": "*",
+        "mkdirp": "*",
         "request": "*",
         "through" : "*"
     },
+    "keywords": [
+        "csv",
+        "stream",
+        "commandline"
+    ],
     "repository": {
         "type": "git",
         "url": "git://github.com/myf/csv-splitter.git"
