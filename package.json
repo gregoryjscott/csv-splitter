@@ -1,10 +1,24 @@
 {
-    "name" : "mopup_stream",
+    "name" : "csv-split",
+    "version": "0.0.1",
+    "description": "command line tool to split csv into smaller csvs based on one column",
     "main" : "index.js",
+    "bin": {
+        "csv-split": "./index.js"
+    },
+    "author": {
+        "name": "Myf Ma",
+        "email": "myf@worldtalks.org"
+    },
+    "license": "MIT",
     "dependencies" : {
         "csv-streamify": "*",
         "commander": "*",
         "request": "*",
         "through" : "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/myf/csv-splitter.git"
     }
 }
