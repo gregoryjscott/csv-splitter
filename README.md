@@ -4,21 +4,14 @@ This small tool spawn off from our need during the Nigeria MDGs Info System data
 We used streams to pick up one line at a time and dump the result to the output directory.
 
 ```
-  Usage: csv-splitter [options] [command]
-
-  Commands:
-
-    split 
-       split an input csv into smaller csvs based on one column
-    
+  Usage: csv-splitter [options]
 
   Options:
 
-    -h, --help                 output usage information
-    -V, --version              output the version number
-    -i, --input <file>         select an input csv
-    -f, --formhub <dataset>    select a formhub dataset as input
-    -o, --output <directiory>  select an output directory
-    -b, --groupby <group>      the column you want to group by
-
+    -h, --help                output usage information
+    -V, --version             output the version number
+    -i, --input <file>        select an input csv
+    -f, --formhub <dataset>   select a formhub dataset as input
+    -o, --output <directory>  select an output directory
+    -b, --groupby <group>     the column you want to group by
 ```
