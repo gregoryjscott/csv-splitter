@@ -1,6 +1,6 @@
 {
     "name" : "csv-split",
-    "version": "0.0.1",
+    "version": "0.0.1-1",
     "description": "command line tool to split csv into smaller csvs based on one column",
     "main" : "index.js",
     "bin": {
@@ -12,11 +12,11 @@
     },
     "license": "MIT",
     "dependencies" : {
-        "csv-streamify": "*",
-        "commander": "*",
-        "mkdirp": "*",
-        "request": "*",
-        "through" : "*"
+        "csv-streamify": "~1.0.0",
+        "commander": "~2.3.0",
+        "mkdirp": "~0.5.0",
+        "request": "~2.40.0",
+        "through" : "~2.3.4"
     },
     "keywords": [
         "csv",
