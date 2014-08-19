@@ -1,6 +1,6 @@
 {
     "name" : "csv-split",
-    "version": "0.0.1-3",
+    "version": "0.0.2",
     "description": "command line tool to split csv into smaller csvs based on one column",
     "main" : "index.js",
     "bin": {
