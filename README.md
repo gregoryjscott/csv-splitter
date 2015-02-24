@@ -16,7 +16,7 @@ you can also pipe from stdin:
 > cat data.csv | csv-split -b [group_by_column]
 
 ```
-  Usage: csv-splitter [options]
+  Usage: csv-split [options]
 
   Options:
 
