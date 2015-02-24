@@ -23,7 +23,6 @@ you can also pipe from stdin:
     -h, --help                output usage information
     -V, --version             output the version number
     -i, --input <file>        select an input csv
-    -f, --formhub <dataset>   select a formhub dataset as input
     -o, --output <directory>  select an output directory
     -b, --groupby <group>     the column you want to group by
 ```
